@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+body{
+    background-color: grey;
+
+}
+header{
+    padding:20px 0 ;
+    background-color: black;
+    
+}
+
+.logo{
+    width: 50%; 
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+  
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 25px;
+    font-family: minha fonte;
+    
+    
+}
+.menu a:hover{
+    color: grey;
+}
+
+.fundo img{
+    width: 1900px;
+     height: 1200px;
+
+}
+
+.biografia{
+    background-color: #3f3f3f;
+    border-radius: 100px;
+}
+.biografia h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px
+}
+
+.biografia h2{
+    text-align: center;
+    padding: 25px;
+    color: white;
+   
+}
+
+button{
+ border: none;
+ margin-left: 25%;
+ width: 50%;
+ padding: 10px;
+ border-radius: 10px;
+ background-color: white;
+ font-weight: 300;
+ cursor: pointer;
+ font-size: 20px;
+ transition: all 0.4s ease-in-out;
+}
+
+button:hover{
+    background-color: transparent;
+    color: yellow;
+    transition: all 0.4s ease-in-out;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px
+}
+
+.music{
+display: flex;
+flex-direction: row;
+}
+.music img{
+width: 900px;
+height: 515px;
+padding: 30px;
+
+
+}
+.music h2{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.tour h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px
+}
+
+.tour img{
+ width: 700px;
+ height: 700px;
+}
+
+
+
+.tour h2{
+   color: white;
+   background-color: #3f3f3f;
+   padding: 10px;
+   border-radius: 100px;
+   font-size: 50px;
+   padding: 15px;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+.blogs h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px
+
+}
+
+.logo img{
+    height: 100px;
+    width: 600px;
+}
+
+.musica{
+font-size: 20px;
+display: flex;
+flex-direction: row;
+justify-content: left ;
+gap: 510px;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2%;
+    padding: 0px;
+    justify-content: center;
+    margin-top: -50px;
+    background-color: #3f3f3f;
+    border-radius: 40px;
+    padding-top: 30px;
+}
+.links img{
+    width: 94px;
+    height: 94px;
+}
